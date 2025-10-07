@@ -35,7 +35,7 @@ It can analyze either **images of faces** or **manual measurements**.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/InnerCato/Face-Mathematical-Attractiveness.git  
+git clone https://github.com/InnerCato/Facial-attractiveness-analyzer.git  
 cd Face-Mathematical-Attractiveness
 ```
 
