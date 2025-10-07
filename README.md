@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 - Supports image formats: .jpg, .jpeg, .png, .bmp, .tiff, .webp
 
-- Run 
+- Run:
 ```bash
 python From_image/Face_checker.py
 ```
@@ -63,7 +63,7 @@ python From_image/Face_checker.py
 
 ### *Analyze Manual Measurements*  
 
-- Run 
+- Run:
 ```bash
 python From_measurements/Face_checker.py
 ```
