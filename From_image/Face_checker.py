@@ -7,7 +7,7 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 predictor_path = os.path.join(base_dir, "shape_predictor_68_face_landmarks.dat")
 num = int(input("Enter image num: "))
 
-image_dir = os.path.join(base_dir, "Images")
+image_dir = os.path.join(base_dir, "Image")
 image_path = None
 for ext in [".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp"]:
     candidate = os.path.join(image_dir, f"face{num}{ext}")
