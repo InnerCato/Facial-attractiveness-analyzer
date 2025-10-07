@@ -41,7 +41,6 @@ def calculate_ratio(p1, p2, p3, p4):
 
 def score_ratio(measured, ideal, weight=1.0):
     deviation = abs(measured - ideal) / ideal
-    print(deviation)
     score = 100 * np.exp(-2 * deviation)  # exponential penalty
     return score
 
