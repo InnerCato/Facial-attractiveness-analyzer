@@ -44,8 +44,6 @@ cd Face-Mathematical-Attractiveness
 pip install -r requirements.txt
 ```
 
-Note: "shape_predictor_68_face_landmarks.dat" is already included in the project directory.
-
 ---
 
 ## 🚀 Usage
@@ -53,22 +51,28 @@ Note: "shape_predictor_68_face_landmarks.dat" is already included in the project
 ### *Analyze An Image*  
 
 - python face_checker.py
+
 - Add a face in the Images folder and name it "face[number]", replace [number] with a number.
-- Supports ".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp"
+
+- Supports image formats: .jpg, .jpeg, .png, .bmp, .tiff, .webp
+
 - Then enter the image number (e.g., 1 for Images/face1.jpg).
 
 
 ### *Analyze Manual Measurements*  
 
 - python face_measurements.py
+
 - You’ll be prompted to enter real-world measurements (in millimeters).  
 
 ---
 
-## 🧩 Requirements
+## 🧩 Dependencies
 - numpy  
 - opencv-python  
 - dlib
+
+Note: "shape_predictor_68_face_landmarks.dat" is already included in the project directory.
 
 
 ## 📊 Example Output 
@@ -90,5 +94,3 @@ This project is open-source and available under the MIT License.
 
 ## 👤 Author  
 Developed by InnerCato
-
-README written by an AI cause my hands were full with another project
