@@ -35,7 +35,7 @@ It can analyze either **images of faces** or **manual measurements**.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/InnerCato/Face-Mathematical-Attractiveness.git
+   git clone https://github.com/InnerCato/Face-Mathematical-Attractiveness.git  
    cd Face-Mathematical-Attractiveness
 
 2. Install the dependencies:
@@ -62,24 +62,24 @@ python face_measurements.py
 You’ll be prompted to enter real-world measurements (in millimeters).  
 
 🧩 Requirements
-    ```bash
-    numpy  
-    opencv-python  
-    dlib
-    ```
+- numpy  
+- opencv-python  
+- dlib
 
-📊 Example Output  
-    ```bash
-    --- Facial Attractiveness Analysis ---  
-    Eye Spacing: 90.77/100  
-    Mouth to Nose: 69.23/100  
-    Face Width/Height: 66.30/100  
-    Chin-Mouth-Nose: 93.31/100  
-    Eye Width/Face: 76.16/100  
-    Symmetry: 82.92/100  
 
-    Final Attractiveness Score: 80.41/100  
-    ```
+📊 Example Output 
+ 
+```bash
+--- Facial Attractiveness Analysis ---
+Eye Spacing: 90.77/100
+Mouth to Nose: 69.23/100
+Face Width/Height: 66.30/100
+Chin-Mouth-Nose: 93.31/100
+Eye Width/Face: 76.16/100
+Symmetry: 82.92/100
+
+Final Attractiveness Score: 80.41/100
+```
 
 🧾 License  
 This project is open-source and available under the MIT License.
