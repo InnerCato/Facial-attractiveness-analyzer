@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 - Run 
 ```bash
-python from_image/face_checker.py
+python From_image/Face_checker.py
 ```
 - Then enter the image number (e.g., 1 for Images/face1.jpg).
 
@@ -65,7 +65,7 @@ python from_image/face_checker.py
 
 - Run 
 ```bash
-python from_measurements/face_measurements.py
+python From_measurements/Face_checker.py
 ```
 - You’ll be prompted to enter real-world measurements (in millimeters).  
 
