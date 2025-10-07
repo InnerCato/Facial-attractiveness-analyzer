@@ -1,4 +1,4 @@
-This one is more precise, Requires manual measurements.
+This one is more precise, Requires manual measurements (in millimeters).
 
 Eye length: from corner to corner
 Nose width: measure without force, the widest part of the nose.
