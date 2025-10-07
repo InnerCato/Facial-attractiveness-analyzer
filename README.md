@@ -50,18 +50,18 @@ pip install -r requirements.txt
 
 ### *Analyze An Image*  
 
-- python face_checker.py
-
 - Add a face in the Images folder and name it "face[number]", replace [number] with a number.
 
 - Supports image formats: .jpg, .jpeg, .png, .bmp, .tiff, .webp
+
+- Run python face_checker.py
 
 - Then enter the image number (e.g., 1 for Images/face1.jpg).
 
 
 ### *Analyze Manual Measurements*  
 
-- python face_measurements.py
+- Run python face_measurements.py
 
 - You’ll be prompted to enter real-world measurements (in millimeters).  
 
