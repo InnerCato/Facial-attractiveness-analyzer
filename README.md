@@ -49,7 +49,7 @@ Note: "shape_predictor_68_face_landmarks.dat" is already included in the project
 
 ## 🚀 Usage
 
-*Analyze An Image*  
+# *Analyze An Image*  
 
 python face_checker.py
 
@@ -60,7 +60,7 @@ Supports ".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp"
 Then enter the image number (e.g., 1 for Images/face1.jpg).
 
 
-*Analyze Manual Measurements*  
+# *Analyze Manual Measurements*  
 
 python face_measurements.py
 
