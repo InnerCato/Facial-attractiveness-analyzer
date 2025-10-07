@@ -63,12 +63,12 @@ You’ll be prompted to enter real-world measurements (in millimeters).
 
 🧩 Requirements
     ```bash
-    numpy
-    opencv-python
+    numpy  
+    opencv-python  
     dlib
     ```
 
-📊 Example Output
+📊 Example Output  
     ```bash
     --- Facial Attractiveness Analysis ---  
     Eye Spacing: 90.77/100  
