@@ -39,8 +39,8 @@ It can analyze either **images of faces** or **manual measurements**.
    cd Face-Mathematical-Attractiveness
 
 2. Install the dependencies:
-
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 
 "shape_predictor_68_face_landmarks.dat" is already included in the project directory.
