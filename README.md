@@ -46,43 +46,45 @@ It can analyze either **images of faces** or **manual measurements**.
 "shape_predictor_68_face_landmarks.dat" is already included in the project directory.
 
 
-🚀 Usage
+## 🚀 Usage
 
-*Analyze a Face Image*
+*Analyze An Image*  
 
-python face_checker.py
-Add a face in the Images folder and name it "face[number]", replace [number] with a number.
-Supports ".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp"
-Then enter the image number (e.g., 1 for Images/face1.jpg).
+python face_checker.py  
+Add a face in the Images folder and name it "face[number]", replace [number] with a number.  
+Supports ".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp"  
+Then enter the image number (e.g., 1 for Images/face1.jpg).  
 
 
-*Analyze Manual Measurements*
+*Analyze Manual Measurements*  
 
-python face_measurements.py
-You’ll be prompted to enter real-world measurements (in millimeters).
+python face_measurements.py  
+You’ll be prompted to enter real-world measurements (in millimeters).  
 
 🧩 Requirements
     ```bash
     numpy
     opencv-python
     dlib
+    ```
 
 📊 Example Output
     ```bash
-    --- Facial Attractiveness Analysis ---
-    Eye Spacing: 90.77/100
-    Mouth to Nose: 69.23/100
-    Face Width/Height: 66.30/100
-    Chin-Mouth-Nose: 93.31/100
-    Eye Width/Face: 76.16/100
-    Symmetry: 82.92/100
+    --- Facial Attractiveness Analysis ---  
+    Eye Spacing: 90.77/100  
+    Mouth to Nose: 69.23/100  
+    Face Width/Height: 66.30/100  
+    Chin-Mouth-Nose: 93.31/100  
+    Eye Width/Face: 76.16/100  
+    Symmetry: 82.92/100  
 
-    Final Attractiveness Score: 80.41/100
+    Final Attractiveness Score: 80.41/100  
+    ```
 
-🧾 License
+🧾 License  
 This project is open-source and available under the MIT License.
 
-👤 Author
+👤 Author  
 Developed by InnerCato
 
 README written by an AI cause my hands were full with another project
