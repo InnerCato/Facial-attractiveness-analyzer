@@ -34,31 +34,36 @@ It can analyze either **images of faces** or **manual measurements**.
 ## ⚙️ Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/InnerCato/Face-Mathematical-Attractiveness.git  
-   cd Face-Mathematical-Attractiveness
+```bash
+git clone https://github.com/InnerCato/Face-Mathematical-Attractiveness.git  
+cd Face-Mathematical-Attractiveness
+```
 
 2. Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
-
-"shape_predictor_68_face_landmarks.dat" is already included in the project directory.
+Note: "shape_predictor_68_face_landmarks.dat" is already included in the project directory.
 
 
 ## 🚀 Usage
 
 *Analyze An Image*  
 
-python face_checker.py  
-Add a face in the Images folder and name it "face[number]", replace [number] with a number.  
-Supports ".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp"  
-Then enter the image number (e.g., 1 for Images/face1.jpg).  
+python face_checker.py
+
+Add a face in the Images folder and name it "face[number]", replace [number] with a number.
+
+Supports ".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp"
+
+Then enter the image number (e.g., 1 for Images/face1.jpg).
 
 
 *Analyze Manual Measurements*  
 
-python face_measurements.py  
+python face_measurements.py
+
 You’ll be prompted to enter real-world measurements (in millimeters).  
 
 🧩 Requirements
@@ -68,7 +73,7 @@ You’ll be prompted to enter real-world measurements (in millimeters).
 
 
 📊 Example Output 
- 
+
 ```bash
 --- Facial Attractiveness Analysis ---
 Eye Spacing: 90.77/100
