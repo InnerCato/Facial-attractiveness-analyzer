@@ -1,4 +1,4 @@
-# Facial Attractiveness Calculator
+# Facial Attractiveness Analyzer
 
 This project estimates facial attractiveness scores based on facial ratios and symmetry.  
 It can analyze either **images of faces** or **manual measurements**.
