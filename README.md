@@ -35,8 +35,8 @@ It can analyze either **images of faces** or **manual measurements**.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/InnerCato/Face-Mathematical-Attractiveness.git  
-cd Face-Mathematical-Attractiveness
+git clone https://github.com/InnerCato/Facial-attractiveness-analyzer.git  
+cd Facial-attractiveness-analyzer
 ```
 
 2. Install the dependencies:
@@ -54,15 +54,19 @@ pip install -r requirements.txt
 
 - Supports image formats: .jpg, .jpeg, .png, .bmp, .tiff, .webp
 
-- Run python face_checker.py
-
+- Run 
+```bash
+python from_image/face_checker.py
+```
 - Then enter the image number (e.g., 1 for Images/face1.jpg).
 
 
 ### *Analyze Manual Measurements*  
 
-- Run python face_measurements.py
-
+- Run 
+```bash
+python from_measurements/face_measurements.py
+```
 - You’ll be prompted to enter real-world measurements (in millimeters).  
 
 ---
