@@ -16,7 +16,7 @@ for ext in [".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp"]:
         break
 
 if image_path is None:
-    print("❌ No image found for that number (supported: jpg, png, bmp, tiff, webp).")
+    print("❌ No image was found for that number (supported: jpg, png, bmp, tiff, webp).")
     exit()
 
 # Load face detector and landmark predictor
