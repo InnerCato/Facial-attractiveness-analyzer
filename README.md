@@ -97,4 +97,6 @@ Final Attractiveness Score: 80.41/100
 This project is open-source and available under the MIT License.
 
 ## 👤 Author  
-Developed by InnerCato
+Developed by InnerCato 
+
+(March 2025)
